@@ -10,7 +10,7 @@ class News extends \GeorgRinger\News\Domain\Model\News
     /**
      * @var string
      */
-    protected $subHeader;
+    protected $subHeader = '';
 
     /**
      * @return string
